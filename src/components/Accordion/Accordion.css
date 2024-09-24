@@ -6,6 +6,17 @@
   justify-content: center;
   width: 50%;
   margin: 20px;
+  gap: 20px;
+}
+
+.wrapper button {
+  background-color: blanchedalmond;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+  /* border: 0; */
+  padding: 10px 20px;
+  /* border-radius: 10px; */
 }
 
 .accordion{
