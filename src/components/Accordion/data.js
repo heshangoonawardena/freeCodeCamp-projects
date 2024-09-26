@@ -6,12 +6,12 @@ const data = [
   },
   {
     id: '2',
-    question: 'What are tabs components?',
+    question: 'What are tab components?',
     answer: 'Tabs components are used to display a group of related content panels.'
   },
   {
     id: '3',
-    question: 'What are modals components?',
+    question: 'What are modal components?',
     answer: 'Modals components are used to display additional content on top of the current page.'
   },
   {

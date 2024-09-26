@@ -1,12 +1,15 @@
+import React from "react";
 import "./App.css";
-import Accordion from "./components/accordion/Accordion";
+import Accordion from "./components/Accordion/Accordion";
+import RandomColor from "./components/RandomColor/RandomColor";
 
-function App() {
+const App = () => {
   return (
-    <div className="main">
-      <Accordion/>
-    </div>
+    <>
+      <Accordion />
+      <RandomColor />
+    </>
   );
-}
+};
 
 export default App;
