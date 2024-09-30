@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import "./LoadMore.css";
-import data from "./data.js";
 
 const LoadMore = () => {
   const [loading, setLoading] = useState(false);
