@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import "./LoadMore.css";
-import data from "./data.js";
 
 const LoadMore = () => {
   const [loading, setLoading] = useState(false);
@@ -32,14 +31,12 @@ const LoadMore = () => {
 
   useEffect(() => {
     fetchProducts();
-    // setProducts(data.products);
   }, [count]);
 
   useEffect(() => {
     products && products.length === 40 && setDisableButton(true);
   }, [products]);
 
-  // console.log(products[0].title);
   loading && <div>Loading data ! please wait</div>;
 
   return (
