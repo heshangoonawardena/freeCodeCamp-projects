@@ -1,0 +1,22 @@
+.tree-menu-container {
+  height: 100vh;
+  width: 100%;
+  background-color: #5C57E8;
+  display: flex;
+}
+
+.menu-list-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 2rem;
+}
+
+.toggle-icon {
+  cursor: pointer;
+}
