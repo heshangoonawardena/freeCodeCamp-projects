@@ -5,6 +5,7 @@ import RandomColor from "./components/RandomColor/RandomColor";
 import StarRating from "./components/StarRating/StarRating";
 import ImageSlider from "./components/ImageSlider/ImageSlider";
 import LoadMore from "./components/LoadMore/LoadMore";
+import QrCodeGenerator from "./components/QrCodeGenerator/QrCodeGenerator";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <StarRating />
       <ImageSlider />
       <LoadMore />
+      <QrCodeGenerator />
     </>
   );
 };
