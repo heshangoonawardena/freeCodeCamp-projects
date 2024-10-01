@@ -1,8 +1,9 @@
 .tree-menu-container {
+  display: flex;
   height: 100vh;
   width: 100%;
   background-color: #5C57E8;
-  display: flex;
+  color: white;
 }
 
 .menu-list-container {
