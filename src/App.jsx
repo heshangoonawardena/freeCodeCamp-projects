@@ -7,6 +7,7 @@ import StarRating from "./components/StarRating/StarRating";
 import ImageSlider from "./components/ImageSlider/ImageSlider";
 import LoadMore from "./components/LoadMore/LoadMore";
 import TreeMenu from "./components/TreeMenu/TreeMenu";
+import QrCodeGenerator from "./components/QrCodeGenerator/QrCodeGenerator";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       <ImageSlider />
       <LoadMore />
       <TreeMenu menus={menus} />
+      <QrCodeGenerator />
     </>
   );
 };
