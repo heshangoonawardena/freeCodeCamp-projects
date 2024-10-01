@@ -8,6 +8,7 @@ import ImageSlider from "./components/ImageSlider/ImageSlider";
 import LoadMore from "./components/LoadMore/LoadMore";
 import TreeMenu from "./components/TreeMenu/TreeMenu";
 import QrCodeGenerator from "./components/QrCodeGenerator/QrCodeGenerator";
+import ThemeChanger from "./components/ThemeChanger/ThemeChanger";
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
       <LoadMore />
       <TreeMenu menus={menus} />
       <QrCodeGenerator />
+      <ThemeChanger />
     </>
   );
 };
