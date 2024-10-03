@@ -1,0 +1,52 @@
+.status {
+  font-size: 20px;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.scroll-indicator-container {
+  /* position: relative; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.scroll-indicator-products-container {
+  margin-top: 6rem;
+  /* position: absolute; */
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.scroll-indicator-products-container > p {
+  /* border: 1px solid; */
+  margin-bottom: 0.5rem;
+}
+
+.top-container {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  text-align: center;
+  color: #ffffff;
+  background-color: #4C7766;
+}
+
+.scroll-progress-tracking-container {
+  width: 100%;
+  height: 10px;
+  background-color: #ffffff;
+}
+
+.current-progress-bar {
+  height: 100%;
+  width: 0%;
+  border-radius: 0 5px 5px 0;
+  background-color: #ED8F45;
+}
