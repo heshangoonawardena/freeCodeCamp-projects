@@ -10,6 +10,7 @@ import TreeMenu from "./components/TreeMenu/TreeMenu";
 import QrCodeGenerator from "./components/QrCodeGenerator/QrCodeGenerator";
 import ThemeChanger from "./components/ThemeChanger/ThemeChanger";
 import ScrollIndicator from "./components/ScrollIndicator/ScrollIndicator.jsx";
+import TabTest from "./components/custom-tabs/TabTest.jsx";
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
       <QrCodeGenerator />
       <ThemeChanger />
       <ScrollIndicator />
+      <TabTest />
     </>
   );
 };
