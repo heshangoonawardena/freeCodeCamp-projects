@@ -9,6 +9,7 @@ import LoadMore from "./components/LoadMore/LoadMore";
 import TreeMenu from "./components/TreeMenu/TreeMenu";
 import QrCodeGenerator from "./components/QrCodeGenerator/QrCodeGenerator";
 import ThemeChanger from "./components/ThemeChanger/ThemeChanger";
+import TabTest from "./components/custom-tabs/TabTest.jsx";
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
       <TreeMenu menus={menus} />
       <QrCodeGenerator />
       <ThemeChanger />
+      <TabTest />
     </>
   );
 };
