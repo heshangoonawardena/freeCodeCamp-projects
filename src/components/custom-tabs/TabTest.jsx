@@ -1,5 +1,5 @@
 import React from "react";
-import Tabs from "./tabs";
+import Tabs from "./Tabs";
 
 const TabTest = () => {
   const tabs = [
