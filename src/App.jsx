@@ -31,7 +31,6 @@ const App = () => {
       <TabTest />
       <ModalTest />
       <ProfileFinder />
-      <ProfileFinder />
       <AutoComplete />
       <TicTacToe />
     </>
