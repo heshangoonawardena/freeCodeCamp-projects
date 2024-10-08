@@ -12,21 +12,23 @@ import ThemeChanger from "./components/ThemeChanger/ThemeChanger";
 import ScrollIndicator from "./components/ScrollIndicator/ScrollIndicator.jsx";
 import TabTest from "./components/custom-tabs/TabTest.jsx";
 import ModalTest from "./components/custom-modal-popup/ModalTest.jsx";
+import ProfileFinder from "./components/github-profile-finder/ProfileFinder.jsx";
 
 const App = () => {
   return (
     <>
-      {/* <Accordion /> */}
+      <Accordion />
       <RandomColor />
-      {/* <StarRating />
+      <StarRating />
       <ImageSlider />
       <LoadMore />
       <TreeMenu menus={menus} />
       <QrCodeGenerator />
       <ThemeChanger />
       <ScrollIndicator />
-      <TabTest /> */}
+      <TabTest />
       <ModalTest />
+      <ProfileFinder />
     </>
   );
 };
