@@ -13,6 +13,7 @@ import ScrollIndicator from "./components/ScrollIndicator/ScrollIndicator.jsx";
 import TabTest from "./components/custom-tabs/TabTest.jsx";
 import ModalTest from "./components/custom-modal-popup/ModalTest.jsx";
 import ProfileFinder from "./components/github-profile-finder/ProfileFinder.jsx";
+import TicTacToe from "./components/tic-tac-toe/TicTacToe.jsx";
 
 const App = () => {
   return (
@@ -29,6 +30,7 @@ const App = () => {
       <TabTest />
       <ModalTest />
       <ProfileFinder />
+      <TicTacToe />
     </>
   );
 };
