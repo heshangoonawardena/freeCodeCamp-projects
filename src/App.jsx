@@ -13,13 +13,14 @@ import ScrollIndicator from "./components/ScrollIndicator/ScrollIndicator.jsx";
 import TabTest from "./components/custom-tabs/TabTest.jsx";
 import ModalTest from "./components/custom-modal-popup/ModalTest.jsx";
 import ProfileFinder from "./components/github-profile-finder/ProfileFinder.jsx";
+import AutoComplete from "./components/Auto-complete/AutoComplete.jsx";
 
 const App = () => {
   return (
     <>
       <Accordion />
       <RandomColor />
-      <StarRating />
+      {/* <StarRating />
       <ImageSlider />
       <LoadMore />
       <TreeMenu menus={menus} />
@@ -28,7 +29,8 @@ const App = () => {
       <ScrollIndicator />
       <TabTest />
       <ModalTest />
-      <ProfileFinder />
+      <ProfileFinder /> */}
+      <AutoComplete />
     </>
   );
 };
